@@ -6,13 +6,17 @@ html {
   box-sizing: inherit;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+
 .top-navigation .links {
 	float: right;
-    font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
     margin-top: 25px;
-    -webkit-font-smoothing: antialiased;
 }
 
 .top-navigation .links .active {
@@ -41,5 +45,56 @@ html {
     margin-left: 25px;
 }
 
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
 
+.introduction > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+    color: white;
+}
 
+h1, h3 {
+    text-align: center;
+    font-weight: 300;
+}
+
+h1 {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.85em;
+    padding-top: 3.5em;
+    font-size: 3.125rem;
+    margin-bottom: 0;
+}
+
+h3 {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.563rem;
+    margin-top: 0.5em;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
