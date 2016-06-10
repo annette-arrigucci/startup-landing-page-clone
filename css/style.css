@@ -120,7 +120,7 @@ button:hover {
 
 .cases {
     background-color: white;
-    margin-bottom: 2em;
+    padding-bottom: 5em;
 }
 
 .cases > .content {
@@ -156,4 +156,69 @@ button:hover {
 .cases img {
     width: 127px;
     height: 127px;
+}
+
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+.social ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+    text-align: center;
+}
+
+.social .content {
+    width: 970px;
+    height: 20em;
+    margin-top: 13em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social h5 {
+    font: inherit;
+    text-align: center;
+    margin: 0;
+}
+
+.social .twitter {
+    color: #55acee;
+}
+
+.social .facebook {
+    color: #4c66a4;
+}
+
+.social .instagram {
+    color: #3f729b;
+}
+
+footer {
+    text-align: center;
 }
